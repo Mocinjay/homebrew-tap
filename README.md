@@ -1,7 +1,7 @@
 # Mocinjay's Homebrew tap
 
 ```bash
-brew install --cask mocinjay/tap/morphlo
+brew tap mocinjay/tap && brew trust mocinjay/tap && brew install --cask morphlo
 ```
 
 **[Morphlo](https://github.com/Mocinjay/morphlo).** Never worry about converting again. A free macOS menu-bar app that:

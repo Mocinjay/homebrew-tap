@@ -9,7 +9,7 @@ cask "morphlo" do
   desc "Never worry about converting again: fixes Photos drags and converts any file"
   homepage "https://github.com/Mocinjay/morphlo"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Morphlo.app"
 
